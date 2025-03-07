@@ -723,6 +723,11 @@ function writeChunks(a,callac){writeChunks(m,callac)}writeChunks(i,{})",
                 )
             }
         ",
+        "
+            function recursive(arg) {
+                return recursive(arg + 1);
+            }
+        ",
     ];
 
     let fix = vec![
